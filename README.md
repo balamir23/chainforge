@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚒️ ChainForge
 
-## Getting Started
+Create ERC20 tokens, NFT collections and mint community NFTs on ARC Testnet with a modern Next.js interface.
 
-First, run the development server:
+---
+
+## 🚀 Overview
+
+ChainForge is an all-in-one Web3 application built for the ARC Testnet ecosystem.
+
+It allows anyone to deploy ERC20 tokens, create NFT collections, mint the official ARC Testnet Degen NFT, and explore their on-chain assets through a simple and modern interface.
+
+The goal of ChainForge is to make token and NFT creation accessible without writing smart contract code.
+
+---
+
+## ✨ Features
+
+- 🔐 Connect Wallet
+- 🪙 Deploy ERC20 Tokens
+- 📦 Create NFT Collections
+- 🎨 Mint the ARC Testnet Degen NFT
+- 👀 View Your Created Tokens
+- ⚡ Fast and Responsive UI
+- 🌐 Built specifically for ARC Testnet
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Wagmi
+- Viem
+- Solidity
+- Hardhat
+
+---
+
+## 🌐 ARC Testnet
+
+### Chain ID
+
+```
+5042002
+```
+
+### RPC URL
+
+```
+https://rpc.testnet.arc.network
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/chainforge.git
+```
+
+Go to the project
+
+```bash
+cd chainforge/frontend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Application Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ERC20 Token Factory
 
-## Learn More
+Create your own ERC20 token in a few clicks.
 
-To learn more about Next.js, take a look at the following resources:
+### NFT Studio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create NFT collections directly on ARC Testnet.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ARC Testnet Degen NFT
 
-## Deploy on Vercel
+Mint the official free community NFT.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### My Tokens
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+View all ERC20 tokens created through ChainForge.
+
+---
+
+## 📁 Project Structure
+
+```
+frontend/
+├── app/
+├── components/
+├── contracts/
+├── lib/
+├── public/
+└── styles/
+```
+
+---
+
+## 🔮 Roadmap
+
+- ✅ ERC20 Token Factory
+- ✅ NFT Collection Factory
+- ✅ Community NFT Mint
+- ✅ My Tokens
+- 🚧 More Web3 tools coming soon
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas and feedback are always welcome.
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+Built with ❤️ for the ARC ecosystem.
