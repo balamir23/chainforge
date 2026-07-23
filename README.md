@@ -112,8 +112,7 @@ frontend/
 ├── contracts/
 ├── lib/
 ├── public/
-└── styles/
-```
+└── styles/<img width="948" height="684" alt="ChainForge-" src="https://github.com/user-attachments/assets/fe1cd6ac-546b-4cd7-87eb-0e128ad053a2" />```
 
 ---
 
@@ -142,3 +141,6 @@ MIT License
 ---
 
 Built with ❤️ for the ARC ecosystem.
+<img width="948" height="625" alt="ChainFORGE" src="https://github.com/user-attachments/assets/0a5a7082-70c2-4744-a5ff-33ad1715533b" />
+
+
