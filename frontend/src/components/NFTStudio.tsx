@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useAccount, useWriteContract } from "wagmi";
 import { parseAbi } from "viem";
-import { NFT_FACTORY } from "@/lib/contracts";
+import { NFT_FACTORY_ADDRESS } from "@/lib/contracts";
 
 const abi = parseAbi([
   "function createCollection(string name_, string symbol_) returns (address)"
@@ -26,7 +26,7 @@ export default function NFTStudio() {
     if (!name || !symbol) return;
 
     writeContract({
-      address: NFT_FACTORY as `0x${string}`,
+      address: NFT_FACTORY_ADDRESS as `0x${string}`,
       abi,
       functionName: "createCollection",
       args: [name, symbol],
