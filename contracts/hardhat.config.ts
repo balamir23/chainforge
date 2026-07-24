@@ -1,18 +1,25 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
-import "dotenv/config";
+import * as dotenv from "dotenv";
 
-const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
-const RPC_URL = process.env.RPC_URL || "";
+dotenv.config();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.30",
-
+  solidity: {
+    compilers: [
+      {
+        version: "0.8.20",
+      },
+      {
+        version: "0.8.30",
+      },
+    ],
+  },
   networks: {
     arcTestnet: {
-      url: RPC_URL,
+      url: "https://rpc.testnet.arc.network",
       chainId: 5042002,
-      accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
   },
 };
